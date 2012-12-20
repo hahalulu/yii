@@ -1,0 +1,392 @@
+2012/12/18 05:22:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'testdrive'' in D:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 D:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 D:\xampp\htdocs\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\yii\demo\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demo/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/demo/index.php?r=gii
+---
+2012/12/18 05:22:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'testdrive'' in D:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 D:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 D:\xampp\htdocs\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\yii\demo\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demo/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/demo/index.php?r=gii
+---
+2012/12/18 05:22:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'testdrive'' in D:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 D:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 D:\xampp\htdocs\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\yii\demo\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demo/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/demo/index.php?r=gii
+---
+2012/12/18 05:22:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'testdrive'' in D:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 D:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 D:\xampp\htdocs\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 D:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\yii\demo\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demo/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/demo/index.php?r=gii
+---
+2012/12/18 05:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "useẻ".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('use???')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\demo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/demo/index.php?r=use%E1%BA%BB
+---
+2012/12/20 08:41:31 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): CHttpRequest->getRequest()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index
+---
+2012/12/20 08:41:41 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): CHttpRequest->getRequest('id')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index
+---
+2012/12/20 08:41:41 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): CHttpRequest->getRequest('id')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index
+---
+2012/12/20 08:41:42 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): CHttpRequest->getRequest('id')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index
+---
+2012/12/20 08:41:46 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): CHttpRequest->getRequest('id', 1)
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index
+---
+2012/12/20 08:41:47 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): CHttpRequest->getRequest('id', 1)
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index
+---
+2012/12/20 08:41:47 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): CHttpRequest->getRequest('id', 1)
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index
+---
+2012/12/20 08:41:47 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): CHttpRequest->getRequest('id', 1)
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index
+---
+2012/12/20 08:41:47 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): CHttpRequest->getRequest('id', 1)
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index
+---
+2012/12/20 08:42:57 [error] [php] Missing argument 1 for CHttpRequest::getParam(), called in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php on line 34 and defined (D:\xampp\htdocs\yii\framework\web\CHttpRequest.php:158)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\demo\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo/index.php?r=site/index
+in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (34)
+in D:\xampp\htdocs\yii\demo\index.php (72)
+2012/12/20 08:42:58 [error] [php] Missing argument 1 for CHttpRequest::getParam(), called in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php on line 34 and defined (D:\xampp\htdocs\yii\framework\web\CHttpRequest.php:158)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\demo\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo/index.php?r=site/index
+in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (34)
+in D:\xampp\htdocs\yii\demo\index.php (72)
+2012/12/20 08:48:59 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): SiteController->getRequest()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index/emai...')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+---
+2012/12/20 08:49:00 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): SiteController->getRequest()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index/emai...')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+---
+2012/12/20 08:49:00 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): SiteController->getRequest()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index/emai...')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+---
+2012/12/20 08:49:01 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getRequest".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getRequest', Array)
+#1 D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php(34): SiteController->getRequest()
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index/emai...')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii\demo\index.php(72): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+---
+2012/12/20 08:51:25 [error] [php] Non-static method CHttpRequest::getQuery() should not be called statically, assuming $this from incompatible context (D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\demo\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\yii\demo\index.php (72)
+2012/12/20 08:51:26 [error] [php] Non-static method CHttpRequest::getQuery() should not be called statically, assuming $this from incompatible context (D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\demo\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\yii\demo\index.php (72)
+2012/12/20 08:51:26 [error] [php] Non-static method CHttpRequest::getQuery() should not be called statically, assuming $this from incompatible context (D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\demo\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\yii\demo\index.php (72)
+2012/12/20 08:51:27 [error] [php] Non-static method CHttpRequest::getQuery() should not be called statically, assuming $this from incompatible context (D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\demo\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\yii\demo\index.php (72)
+2012/12/20 08:51:27 [error] [php] Non-static method CHttpRequest::getQuery() should not be called statically, assuming $this from incompatible context (D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\demo\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\yii\demo\index.php (72)
+2012/12/20 08:51:27 [error] [php] Non-static method CHttpRequest::getQuery() should not be called statically, assuming $this from incompatible context (D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\demo\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\yii\demo\index.php (72)
+2012/12/20 08:51:27 [error] [php] Non-static method CHttpRequest::getQuery() should not be called statically, assuming $this from incompatible context (D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\demo\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
+in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\yii\demo\index.php (72)

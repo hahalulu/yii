@@ -21,6 +21,7 @@ class SiteController extends Controller
 		);
 	}
 
+
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
@@ -30,6 +31,8 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
         echo 'đây là index';
+        vd(Yii::app()->request->getParam('email'));
+        vd(CHttpRequest::getQuery('email'));
 		$this->render('index');
 	}
 
