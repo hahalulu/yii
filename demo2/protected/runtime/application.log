@@ -390,3 +390,14 @@ Stack trace:
 REQUEST_URI=/yii/demo/index.php?r=site/index/email=abc
 in D:\xampp\htdocs\yii\demo\protected\controllers\SiteController.php (35)
 in D:\xampp\htdocs\yii\demo\index.php (72)
+2012/12/29 03:59:29 [error] [php] Non-static method CHttpRequest::getQuery() should not be called statically, assuming $this from incompatible context (D:\xampp\htdocs\yii\demo2\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\demo2\index.php(72): CWebApplication->run()
+REQUEST_URI=/yii/demo2/
+in D:\xampp\htdocs\yii\demo2\protected\controllers\SiteController.php (35)
+in D:\xampp\htdocs\yii\demo2\index.php (72)

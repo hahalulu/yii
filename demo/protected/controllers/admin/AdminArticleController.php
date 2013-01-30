@@ -1,6 +1,6 @@
 <?php
-Class AdminArticle extends Controller {
-    public $layout = 'column1';
+Class AdminArticleController extends Controller {
+    public $layout = 'main';
     public function actionAdd() {
         $this->render('add');
     }
