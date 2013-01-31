@@ -51,9 +51,14 @@ $(document).ready(function(){
 		$('.content-box .content-box-content div.tab-content').hide(); // Hide the content divs
 		$('.content-box-content div.default-tab').show(); // Show the div with class "default-tab"
 		$('ul.content-box-tabs li a.default-tab').addClass('current'); // Set the class of the default tab link to "current"
-		
 		$('.content-box ul.content-box-tabs li a').click( //When a tab is clicked...
-			function() { 
+			function() {
+                if ($('#title').html() == 'Write a New Article') {
+                    $('#title').html('List Article');
+                } else {
+                    $('#title').html('Write a New Article');
+                }
+
 				$(this).parent().siblings().find("a").removeClass('current'); // Remove "current" class from all tabs
 				$(this).addClass('current'); // Add class "current" to clicked tab
 				var currentTab = $(this).attr('href'); // Set variable "currentTab" to the value of href of clicked tab

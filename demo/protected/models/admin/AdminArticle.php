@@ -1,4 +1,4 @@
 <?php
-Class AdminArticle {
+Class AdminArticle extends AdminArticlePeer{
 
 }

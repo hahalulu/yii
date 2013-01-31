@@ -4,4 +4,8 @@ Class AdminArticleController extends Controller {
     public function actionAdd() {
         $this->render('add');
     }
+
+    public function actionIndex() {
+        $this->render('index');
+    }
 }
